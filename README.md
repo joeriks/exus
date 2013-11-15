@@ -6,7 +6,7 @@ exus
 It checks the requested URL and gets the corresponding content (for that path) as an object from Umbraco, via the Tapas package.
 It also gets the Template (Id) for that URL and renders a jade view for that TemplateId.
 
-It replaces the MVC part in Umbraco and much needs to be done, but it works with the most basic functionality : render a view with the right content.
+It replaces the MVC part in Umbraco and much needs to be done, but it works with the most basic functionality : render the right document content based on url and the right view based on the document template.
 
 (The Backend Umbraco UI is not changed.)
 
@@ -26,4 +26,10 @@ And 1047.jade is the view for the Textpage template
 ###Sample
 
 Basic running sample at https://exus-playground.azurewebsites.net
+
+###Up next
+
+* locallink and media from the rich text editor
+* Sample navigation "macro"
+
 
