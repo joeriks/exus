@@ -6,6 +6,10 @@ exus
 It checks the requested URL and gets the corresponding content (for that path) as an object from Umbraco, via the Tapas package.
 It also gets the Template (Id) for that URL and renders a jade view for that TemplateId.
 
+It replaces the MVC part in Umbraco and much needs to be done, but it works with the most basic functionality : render a view with the right content.
+
+(The Backend Umbraco UI is not changed.)
+
 ###Requirements
 
 Umbraco 6* with Tapas for rest request for published content
