@@ -11,7 +11,8 @@ Express, Jade and Restler installed from NPM
 
 Jade Views in /Views folder, stored with the Template Id as a temporary workaround - Template Name is not stored in the published content and requires a database hit
 
-So 1046.jade is the template view 
+So for example 1046.jade is the template view for the Homepage template
+And 1047.jade is the view for the Textpage template
 
-Sample at https://exus-playground.scm.azurewebsites.net
+Sample at https://exus-playground.azurewebsites.net
 
