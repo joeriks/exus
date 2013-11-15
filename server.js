@@ -1,9 +1,6 @@
 var sys = require('util');
-var rest = require('restler'); // npm get restler
-var express = require('express'); // npm get express
-// npm get jade
-
-// umbraco 6* with the package Tapas installed
+var rest = require('restler'); 
+var express = require('express'); 
 
 var app = express();
 
