@@ -12,6 +12,8 @@ It replaces the MVC part in Umbraco and much needs to be done, but it works with
 
 _The active part of "Exus" is only 16 lines of code: https://github.com/joeriks/exus/blob/master/server.js_
 
+See a running sample live at https://exus-playground.azurewebsites.net
+
 ##What about getting data cross http vs using edge.js?
 
 I would like to use edgejs for this, to be able to get the best performance. However, I haven't figured out how to do that in a good way, 
@@ -40,13 +42,8 @@ Jade Views in /Views folder, stored with the Template Id (as a temporary workaro
 So for example 1046.jade is the template view for the Homepage template
 And 1047.jade is the view for the Textpage template
 
-###Sample
-
-Basic running sample at https://exus-playground.azurewebsites.net
 
 ###Up next
 
 * locallink and media from the rich text editor
 * Sample navigation "macro"
-
-
