@@ -8,7 +8,9 @@ It also gets the Template (Id) for that URL and renders a jade view for that Tem
 
 It replaces the MVC part in Umbraco and much needs to be done, but it works with the most basic functionality : render the right document content based on url and the right view based on the document template.
 
-(The Backend Umbraco UI is not changed.)
+(The Backend Umbraco UI is not changed, editor is good old Umbraco, and so is the Businesslogic and Data layer. Even the router is used, but I use another router on the express site.)
+
+_The whole ExpressJs rendering backend is about 20 lines of code_
 
 ##What about getting data cross http vs using edge.js?
 
