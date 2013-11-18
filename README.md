@@ -10,7 +10,7 @@ It replaces the MVC part in Umbraco and much needs to be done, but it works with
 
 (The Backend Umbraco UI is not changed, editor is good old Umbraco, and so is the Businesslogic and Data layer. Even the router is used, but I use another router on the express site.)
 
-_The active part of "Exus" is only 22 lines of code: https://github.com/joeriks/exus/blob/master/server.js_
+_The active part of "Exus" is only 16 lines of code: https://github.com/joeriks/exus/blob/master/server.js_
 
 ##What about getting data cross http vs using edge.js?
 
