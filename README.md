@@ -10,6 +10,17 @@ It replaces the MVC part in Umbraco and much needs to be done, but it works with
 
 (The Backend Umbraco UI is not changed.)
 
+##What about getting data cross http vs using edge.js?
+
+I would like to use edgejs for this, to be able to get the best performance. However, I haven't figured out how to do that in a good way, 
+since the backend runs in a pure .net process, and updates after publish only happens there. The node.js with edge.js would run in the v8 process,
+and therefore would not see the publish event. Therefore, in my approach I call the .net process over http to get the latest version of the published data.
+
+https://github.com/tjanczuk/edge/wiki/Performance shows 1.4 ms latency with this kind of call. With in-process the latency would be 32 times as small. 
+
+Still - 1.4 ms is not much, and probably one of the least expensive parts of the web request.
+
+
 ###Requirements
 
 Umbraco 6* with Tapas for rest request for published content
