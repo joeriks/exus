@@ -18,7 +18,9 @@ and therefore would not see the publish event. Therefore, in my approach I call 
 
 https://github.com/tjanczuk/edge/wiki/Performance shows 1.4 ms latency with this kind of call. With in-process the latency would be 32 times as small. 
 
-Still - 1.4 ms is not much, and probably one of the least expensive parts of the web request.
+Still - 1.4 ms is not much, and probably one of the least expensive parts of the web request, which usally take about 100 times as long time to complete.
+
+Very rough numbers, but I think they are valid for comparisons.
 
 
 ###Requirements
