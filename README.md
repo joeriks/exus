@@ -18,7 +18,9 @@ and therefore would not see the publish event. Therefore, in my approach I call 
 
 https://github.com/tjanczuk/edge/wiki/Performance shows 1.4 ms latency with this kind of call. With in-process the latency would be 32 times as small. 
 
-Still - 1.4 ms is not much, and probably one of the least expensive parts of the web request, which usally take about 100 times as long time to complete.
+Still - 1.4 ms is not much.
+
+For a complete request on my current Azure playground site I get times at usually 15-30 ms, when a total request time is about 150ms. And it includes the Umbraco part.
 
 Very rough numbers, but I think they are valid for comparisons.
 
