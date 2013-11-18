@@ -3,6 +3,8 @@ exus
 
 ##ExpressJs rendering backend for Umbraco
 
+####Status: a play project - far, far away from a stable solution I'd run for a client.
+
 It checks the requested URL and gets the corresponding content (for that path) as an object from Umbraco, via the Tapas package.
 It also gets the Template (Id) for that URL and renders a jade view for that TemplateId.
 
