@@ -24,10 +24,11 @@ https://github.com/tjanczuk/edge/wiki/Performance shows 1.4 ms latency with this
 
 Still - 1.4 ms is not much.
 
-For a complete request on my current Azure playground site I get times at usually 15-30 ms, when a total request time is about 150ms. And it includes the Umbraco part.
+For a complete request on my current Azure playground site I get times at usually 15-30 ms, after first warmup call which takes a bit longer ~150.
+
+Total request time is usually about 150ms after that first one. And it includes the Umbraco part.
 
 Very rough numbers, but I think they are valid for comparisons.
-
 
 ###Requirements
 
