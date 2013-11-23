@@ -48,5 +48,6 @@ And 1047.jade is the view for the Textpage template
 
 ###Up next
 
+* Move to Kraken by Paypal & Dustjs by Linkedn
 * locallink and media from the rich text editor
 * Sample navigation "macro"
