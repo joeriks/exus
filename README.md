@@ -16,6 +16,8 @@ _The active part of "Exus" is only 16 lines of code: https://github.com/joeriks/
 
 See a running sample live at https://exus-playground.azurewebsites.net
 
+(See also the article "Node.js and the new web front-end" by Nicholas Zakas http://www.nczonline.net/blog/2013/10/07/node-js-and-the-new-web-front-end/ )
+
 ##What about getting data cross http vs using edge.js?
 
 I would like to use edgejs for this, to be able to get the best performance. However, I haven't figured out how to do that in a good way, 
